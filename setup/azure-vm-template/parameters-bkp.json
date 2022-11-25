@@ -9,7 +9,7 @@
       "value": "devsecops-cloud801"
     },
     "enableAcceleratedNetworking": {
-      "value": false
+      "value": true
     },
     "networkSecurityGroupName": {
       "value": "devsecops-cloud-nsg"
@@ -109,7 +109,7 @@
           "name": "devsecops-cloud_DataDisk_0",
           "sku": "StandardSSD_LRS",
           "properties": {
-            "diskSizeGB": 128,
+            "diskSizeGB": 512,
             "creationData": {
               "createOption": "empty"
             }
@@ -118,7 +118,7 @@
       ]
     },
     "virtualMachineSize": {
-      "value": "Standard_B2s"
+      "value": "Standard_D4s_v3"
     },
     "adminUsername": {
       "value": "devsecops"
